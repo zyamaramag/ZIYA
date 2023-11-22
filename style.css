@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('Untitled design (4).png');
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    float: left;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p {
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    justify-content: left;
+}
+button{
+    text-decoration: none;
+    width: 180px;
+    color: black;
+    font-size: 15px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;   
+}
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-table;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px, 15px;
+    background-image: url('Help each other (2).png');
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url('SCREAM.png');
+}
+.card2{
+    background-image: url('May.png');
+}
+.card3{
+    background-image: url('Help each other (2).png');
+}
+.card4{
+    background-image: url('NOT YOU NOT ME WE.    .png');
+}
+.card5{
+    background-image: url('WHY\ WOULD.png');
+}
+.card6{
+    background-image: url('GITARA.png');
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h3{
+    color:#fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+@media screen and (max-width: 600px)
+{
+    .row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+    }
+    .col{
+        flex-basis: 50%;
+        float: left;
+    }
+    h1{
+        color: #fff;
+        font-size: 70px;
+    }
+    p {
+        color: white;
+        font-size: 15px;
+        line-height: 30px;
+        justify-content: left;
+    }
+    .card {
+        width: 200px;
+        height: 230px;
+        display: inline-table;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px, 15px;
+        background-image: url('Help each other (2).png');
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+    }
+    .card1{
+        background-image: url('SCREAM.png');
+    }
+    .card2{
+        background-image: url('May.png');
+    }
+    .card3{
+        background-image: url('Help each other (2).png');
+    }
+    .card4{
+        background-image: url('NOT YOU NOT ME WE.    .png');
+    }
+    .card5{
+        background-image: url('WHY\ WOULD.png');
+    }
+    .card6{
+        background-image: url('NARIRINIG MO BA ANG MUSIKA KAPAG IKA’Y UMIIBIG.png');
+    }
+    .card:hover{
+        transform: translateY(-10px);
+    }
+    h3{
+        color:#fff;
+        text-shadow: 0 0 5px #999;
+    }
+    .card p{
+        text-shadow: 0 0 15px #000;
+        font-size: 8px;
+    }
+}
